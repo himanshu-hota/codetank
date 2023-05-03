@@ -8,6 +8,7 @@ About the Project :-
   🔴 It is based on pure HTML and pure CSS.
   🔴 It also include Best practice and topics like flexbox , layouting.
   🔴 Animation using css library Animte.css
+  🔴 Fully responsive
   
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -43,7 +44,14 @@ About the Project :-
   
  🙎 Contact .
 
-    🔗 Author - @himanshu-hota - HimanshuHota55@gmail.com
+    🔗 Contributors - 
+    
+    1. @himanshu-hota - HimanshuHota55@gmail.com
 
     ✅ Linkedin ✅ https://www.linkedin.com/in/himanshu-hota/ ✅
     ✅ Github   ✅ https://github.com/himanshu-hota           ✅
+    
+    2.     @ - SatpathyAshaRani@gmail.com
+
+    ✅ Linkedin ✅ https://www.linkedin.com/in/asha-rani-satpathy-b44420249/ ✅
+    ✅ Github   ✅ https://github.com/AshaSatpathy08 ✅
