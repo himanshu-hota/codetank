@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --animate-duration: 2000ms;
+  --animate-delay: 500ms;
 }
 
 /* Main container */
@@ -13,7 +15,6 @@
   position: fixed;
   top: 0;
   display: flex;
-  
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -259,7 +260,7 @@
 
 .card-img {
   width: 100%;
-  height: 70%;
+  height: 65%;
   position: relative;
 }
 
@@ -282,20 +283,16 @@
 
 .card-song-details {
   width: 100%;
-  height: 30%;
+  height: 35%;
 }
 
-.card-song-details p {
-  color: white;
-  margin: 8px;
-}
 
 .card-song-name {
   display: block;
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0.5em 0;
 }
 
@@ -304,7 +301,7 @@
   text-decoration: none;
   color: rgb(161, 154, 154);
   font-weight: 400;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 /* */
