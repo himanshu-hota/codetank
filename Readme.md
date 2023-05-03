@@ -6,9 +6,9 @@ Here you will projects related to
 
 📃 HTML CSS Javascript
 
-📃 React
+📃 React (Comming soon)
 
-📃 NEXTJS
+📃 NEXTJS (Comming Soon)
 
 
 
