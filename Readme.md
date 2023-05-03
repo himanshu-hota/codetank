@@ -15,10 +15,9 @@ Here You Will find Projects Related To
 **Creators :**
 --------------
 
-Himanshu Hota
-
-[![linkedin logo](https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png)](https://www.linkedin.com/in/himanshu-hota/) [![linkedin logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://www.linkedin.com/in/himanshu-hota/)  
-
-Asha Rani Satpathy
-
-[![linkedin logo](https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png)](https://www.linkedin.com/in/asha-rani-satpathy-b44420249/) [![linkedin logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com/AshaSatpathy08)
+*   Himanshu Hota
+    
+[Linkedin](https://www.linkedin.com/in/himanshu-hota/) [Github](https://www.linkedin.com/in/himanshu-hota/)  
+*   Asha Rani Satpathy
+    
+[Linkedin](https://www.linkedin.com/in/asha-rani-satpathy-b44420249/) [Github](https://github.com/AshaSatpathy08)
