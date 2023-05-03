@@ -30,7 +30,7 @@ About the Project :-
   
    🔴 Landing Page:-
    
-   ![image](https://user-images.githubusercontent.com/62291769/201727183-7c0a50cf-446d-47bc-9c45-bd99657dfdc8.png)
+   ![image](https://raw.githubusercontent.com/himanshu-hota/codetank/spotify/Spotify/Landing%20page.png)
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------
