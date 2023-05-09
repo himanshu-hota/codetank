@@ -138,11 +138,18 @@
 
 /* Library song */
 .song {
-  height: 2.5em;
+  height:3em;
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   gap: 1em;
+  padding: 5px;
+  
+}
+
+.song:hover{
+  background-color: #555;
 }
 
 /* library song  poster*/
@@ -150,7 +157,13 @@
   object-fit: contain;
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
+
+.song-details p {
+  cursor: pointer;
+}
+
 
 .song-details p:nth-child(2) {
   font-size: 0.8em;
