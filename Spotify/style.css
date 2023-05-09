@@ -6,6 +6,7 @@
   --animate-delay: 500ms;
   transition: all 0.2s;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Main container */
@@ -95,6 +96,7 @@
   background: rgba(255, 255, 255, 0.1);
   border: none;
   outline: none;
+  cursor: pointer;
   color: aliceblue;
 }
 
@@ -112,6 +114,10 @@
   width: 30%;
   border: none;
   outline: none;
+}
+
+#categories:hover {
+  cursor: pointer;
 }
 
 #categories option {
@@ -144,6 +150,11 @@
   object-fit: contain;
   height: 40px;
   width: 40px;
+}
+
+.song-details p:nth-child(2) {
+  font-size: 0.8em;
+  color: gray;
 }
 
 /* width */
@@ -208,6 +219,7 @@
   margin-left: 10px;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .rightNav div:nth-child(2) button:nth-child(1) {
@@ -249,16 +261,16 @@
   padding: 10px 20px 50px 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  gap: 1em;
+  gap: 2em;
   overflow-y: scroll;
 }
 
 /* Individual song */
 .card {
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -267,10 +279,12 @@
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   padding: 10px;
+  overflow: hidden;
 }
 
 .card:hover {
   scale: 1.1;
+  cursor: pointer;
 }
 
 /* Song poster */
@@ -306,7 +320,7 @@
   display: block;
   text-decoration: none;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1em;
   margin: 0.5em 0;
 }
@@ -314,13 +328,12 @@
 .card-singer-name {
   display: block;
   text-decoration: none;
-  color: rgb(161, 154, 154);
+  color: gray;
   font-weight: 400;
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 /* End of Right panel */
-
 
 /* Player section */
 
@@ -409,6 +422,7 @@
 
 i:hover {
   scale: 1.2;
+  cursor: pointer;
 }
 
 i:active {
