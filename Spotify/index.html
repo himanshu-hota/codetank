@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Prime</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b45c6d8a14.js" crossorigin="anonymous"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- Main container -->
+    <section class="container">
+
+        <!-- Left panel -->
+        <section class="left-panel animate__animated animate__backInLeft">
+
+            <!-- Button section -->
+            <div class="home-buttons">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </div>
+            </div>
+            <!-- End of Button section -->
+
+
+            <!-- Library section -->
+            <div class="library">
+                <!-- Library heading -->
+                <div class="lib-heading">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <p>Your library</p>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <!-- Library buttons -->
+                <div class="lib-buttons">
+                    <button>Playlist</button>
+                    <button>Artists</button>
+                </div>
+
+                <!-- Library search and dropdown -->
+                <div class="lib-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <select name="" id="categories">
+                        <option value="Recents" selected>Recents</option>
+                        <option value="Recently Added">Recently Addedoption>
+                        <option value="Alphabetical">Alphabetical</option>
+                        <option value="Creator">Creator</option>
+                    </select>
+                </div>
+
+                <!-- Library songs container  -->
+                <div class="songs">
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>Purple Haze</p>
+                            <p>The Jimi Hendrix Experience</p>
+                        </div>
+                    </div>
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1506377090191-823da62e11e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>Hound Dog</p>
+                            <p>Elvis Presley</p>
+                        </div>
+                    </div>
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1600354587397-681c16c184bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>In My Life</p>
+                            <p>The Beatles</p>
+                        </div>
+                    </div>
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1504600770771-fb03a6961d33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>People Get Ready</p>
+                            <p>The Impressions</p>
+                        </div>
+                    </div>
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>God Only Knows</p>
+                            <p>The Beach Boys</p>
+                        </div>
+                    </div>
+                    <!-- Library individual song -->
+                    <div class="song">
+                        <img src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="song-poster">
+                        <div class="song-details">
+                            <p>The Dock </p>
+                            <p>Otis Redding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Library section -->
+
+
+        </section>
+        <!-- End of Left panel -->
+
+
+        <!-- Right panel -->
+        <section class="right-panel animate__animated animate__backInRight animate__delay-2s">
+            <!-- Right panel navigation  -->
+            <div class="rightNav">
+                <div>
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div>
+                    <button>Upgrade</button>
+                    <button><i class="fa-regular fa-circle-down"></i></span> Install App</button>
+                    <i class="fa-sharp fa-regular fa-user " id="profile"></i>
+                </div>
+            </div>
+            <!-- End of Right panel navigation  -->
+
+
+            <h1 class="album-heading">Recently Played</h1>
+            <!-- Playlist container -->
+            <div class="albums">
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1612392549296-c7623f23665a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">London Calling</a>
+                        <a href="#" class="card-singer-name">The Clash</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1616197151166-93dc9b4528d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">I Want to</a>
+                        <a href="#" class="card-singer-name">The Beatles</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Purple Haze</a>
+                        <a href="#" class="card-singer-name">The Jimi Hendrix Experience</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1614202573962-102069069843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Maybellene</a>
+                        <a href="#" class="card-singer-name">Chuck Berry</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1506377090191-823da62e11e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Hound Dog</a>
+                        <a href="#" class="card-singer-name">Elvis Presley</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1592885366365-58c6a12cb55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Let It Be</a>
+                        <a href="#" class="card-singer-name">The Beatles</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- End of Playlist container -->
+
+            <h1 class="album-heading">Today's Hits</h1>
+            <!-- Playlist container -->
+            <div class="albums">
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://img.freepik.com/free-psd/saturday-party-social-media-template_505751-2936.jpg?size=626&ext=jpg"
+                            alt="song-poster">
+                        <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Tum Mile</a>
+                        <a href="#" class="card-singer-name">Arijith Singh</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1573538447152-e6fe80357e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODd8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Smells Like Teen Spirit</a>
+                        <a href="#" class="card-singer-name">Nirvana</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details"><a href="#" class="card-song-name">Whatd I Say</a>
+                        <a href="#" class="card-singer-name">Ray Charles</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1620935077137-c82775781c7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">My Generation</a>
+                        <a href="#" class="card-singer-name">The Who</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1617191519105-d07b98b10de6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">A Change Is Gonna Come</a>
+                        <a href="#" class="card-singer-name">Sam Cooke</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1592660716763-09efba6db4e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Yesterday</a>
+                        <a href="#" class="card-singer-name">The Beatles</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1584404268984-89c43e841646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details"> <a href="#" class="card-song-name">Blowin in </a>
+                        <a href="#" class="card-singer-name">Bob Dylan</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Playlist container -->
+
+
+            <h1 class="album-heading">Spotify Original</h1>
+            <!-- Playlist container -->
+            <div class="albums">
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Born to Run</a>
+                        <a href="#" class="card-singer-name">Bruce Springsteen</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1671997600444-bded97fed063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Be My Baby</a>
+                        <a href="#" class="card-singer-name">The Ronettes</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1600354587397-681c16c184bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNxdWFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">In My Life</a>
+                        <a href="#" class="card-singer-name">The Beatles</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1504600770771-fb03a6961d33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">People Get Ready</a>
+                        <a href="#" class="card-singer-name">The Impressions</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">God Only Knows</a>
+                        <a href="#" class="card-singer-name">The Beach Boys</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="song-poster"> <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details"><a href="#" class="card-song-name">The Dock</a>
+                        <a href="#" class="card-singer-name">Otis Redding</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://img.freepik.com/free-psd/saturday-party-social-media-template_505751-2936.jpg?size=626&ext=jpg"
+                            alt="song-poster">
+                        <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="card-song-details">
+                        <a href="#" class="card-song-name">Tum Mile</a>
+                        <a href="#" class="card-singer-name">Arijith Singh</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Playlist container -->
+
+
+        </section>
+        <!-- End of Right panel -->
+
+    </section>
+    <!-- End of Main container -->
+
+    <!-- player section -->
+    <section class="player">
+        <!-- Current song -->
+        <div class="current-song animate__animated animate__backInLeft animate__delay-3s">
+            <!-- Current song poster -->
+            <div class="current-song-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd7QTUUDchg1DYCy_-F8oZi0Z2O6yjA1cj9mBUgYnzxQ&s"
+                    alt="song-poster">
+            </div>
+            <!-- Current song details -->
+            <div class="current-song-details">
+                <p>Saki saki</p>
+                <span>Salim-Sulaiman,Sonu Nigam,Shreya Ghoshal</span>
+            </div>
+            <!-- Current song buttons -->
+            <div class="current-song-buttons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+
+        <!-- Player controls -->
+        <div class="controls animate__animated animate__backInUp animate__delay-3s">
+            <div>
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-sharp fa-solid fa-backward"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-sharp fa-solid fa-forward"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <input type="range">
+        </div>
+
+
+        <!-- Other controls -->
+        <div class="other-controls animate__animated animate__backInRight animate__delay-3s">
+            <div>
+                <i class="fa-solid fa-diagram-next"></i>
+                <i class="fa-solid fa-headphones"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <input type="range">
+        </div>
+
+    </section>
+    <!-- End of player section -->
+
+</body>
+
+</html>
